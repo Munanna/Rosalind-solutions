@@ -1,0 +1,9 @@
+f = open('Downloads/rosalind_ini5.txt')
+
+lines = f.readlines()
+counter = 1
+
+for line in lines:
+    if counter % 2 == 0:
+        print (line.strip('\n'))
+    counter +=1
